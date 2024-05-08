@@ -19,8 +19,43 @@
             <img src="./resources/logo.png" alt="logo">
         </div>
     </header>
-    <main>
-        <h1>Вход</h1>
+    <main class="register-main">
+     <div class="forms-container">
+        <form action="">
+            <div class ="register-container">
+                <h1>Регистрация</h1>
+                <hr>
+                <label for="email"><b>Електронна поща</b></label>
+                <input type="email" name ="email" placeholder="Въведете Вашата електронна поща" id="pass" required>
+
+                <label for="pass"><b>Парола</b></label>
+                <input type="password" name ="pass" placeholder="Въведете парола" id="pass" required>
+
+                <label for="pass-repeat"><b>Потвърждение парола</b></label>
+                <input type="email" name ="pass-repeat" placeholder="Повторете паролата" id="pass-repeat" required>
+                <hr>
+                <button type="submit" class="registration">Регистрация</button>
+
+            </div>
+        </form>
+        
+        <form action="">
+            <div class ="login-container">
+                <h1>Вход</h1>
+                <hr>
+                <label for="email"><b>Електронна поща</b></label>
+                <input type="email" name ="email" placeholder="Въведете Вашата електронна поща" id="pass" required>
+
+                <label for="pass"><b>Парола</b></label>
+                <input type="password" name ="pass" placeholder="Въведете парола" id="pass" required>
+
+                <hr>
+                <button type="submit" class="loginbtn">Вход</button>
+            </div>
+        </form>
+        
+     </div> 
+       
     </main>
     <footer>
 
