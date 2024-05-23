@@ -11,23 +11,33 @@ form {
     width:100%;
 }
 
-.register-container, .login-container {
-    padding: 16px;
-    color: #315779ed;
+.register-container {
+  color: #315779ed;
+  padding-left: 100px;
+  width: 600px;
+  height: 400px;
+  margin-left: -100px;
+}
+
+.h1-reg {
+  font-family: Arial, Helvetica, sans-serif;
+  color :#163d60ed;
+  font-size:xx-large;
+  margin-left: -500px;
 }
 
 input[type=text],
 input[type=password],
 input[type=email],
 input[type=psw-repeat] {
-    width: 92%;
-    padding: 15px;
-    margin: 5px 0px 22px 0px;
-    display: inline-block;
-    border: none;
-    background: aliceblue;
-    border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+  width: 92%;
+  padding:15px;
+  margin: 5px 0px 22px 0px;
+  display: inline-block;
+  border: none;
+  background: aliceblue;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -39,16 +49,61 @@ input[type=psw-repeat]:focus {
     margin-bottom: 25pxs;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color :#163d60ed;
-  font-size:xx-large;
-}
+
 hr {
     border: 1px solid goldenrod;
     outline:none;
     font-family: Arial, Helvetica, sans-serif;
+    width: 550px;
+    margin-left: 0px;
+    width: 582px;
 }
+
+.login-container {
+  color: #315779ed;
+  height: 400px;
+  width: 600px;
+  margin-left: 80px;
+  margin-right: -20px;
+
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=psw-repeat] {
+  width: 92%;
+  padding:15px;
+  margin: 5px 0px 22px 0px;
+  display: inline-block;
+  border: none;
+  background: aliceblue;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+input[type=text]:focus
+input[type=password]:focus
+input[type=email]:focus
+input[type=psw-repeat]:focus {
+    background-color:beige;
+    margin-bottom: 25pxs;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1-log {
+  font-family: Arial, Helvetica, sans-serif;
+  color :#163d60ed;
+  font-size:xx-large;
+  margin-left: -450px;
+}
+
+hr {
+    border: 1px solid goldenrod;
+    outline:none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 582px;
+}
+
 
 .registration,
 .loginbtn {
@@ -68,8 +123,6 @@ hr {
 .loginbtn:hover {
     opacity: 1;
 }
-
-/*navigation*/
 
 .navigation-container {
     display: flex;
@@ -107,7 +160,7 @@ nav > ul > li > a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*navigation courses*/
+/*courses*/
 .navigation-container-courses {
     display: flex;
     justify-content: space-between;
@@ -164,7 +217,6 @@ nav > ul > li > a {
   margin-top: 50px;
   width: 400px;
   margin-left: 400px;
-  
 
 }
 
@@ -199,7 +251,6 @@ nav > ul > li > a {
   width: 400px;
   margin-left: 400px;
   
-
 }
 
 .course-info-db {
@@ -261,8 +312,6 @@ nav > ul > li > a {
   padding-bottom: 8px;
 }
  
-
-
   .courseBtn button a {
     color: white;
     text-decoration: none;
@@ -275,7 +324,7 @@ nav > ul > li > a {
   }
 
 
-/*navigation contacts*/
+/* contacts*/
 
 .navigation-container-contacts {
     display: flex;
@@ -310,7 +359,7 @@ nav > ul > li > a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*navigation index*/
+/*index*/
 .navigation-container-index {
     display: flex;
     justify-content: space-between;
