@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="/">Начало</a></li>
-                <li><a href="./courses.html">Курсове</a></li>
-                <li><a href="./contacts.html">Контакти</a></li>
-                <li><a href="./register.html">Вход</a></li>          
-            </ul>
-        </nav>
-        <div class ="logo-wrapper">
-            <img src="./resources/logo.png" alt="logo">
+        <div class="navigation-container">
+            <nav>
+                <ul class ="nav">
+                    <li><a href="/">Начало</a></li>
+                    <li><a href="./courses.html">Курсове</a></li>
+                    <li><a href="./contacts.html">Контакти</a></li>
+                    <li><a href="./register.html">Вход</a></li>
+                </ul>
+            </nav>
+            <div class="logo-wrapper">
+                <img src="./resources/logo_new.png" alt="logo">
+            </div>
         </div>
     </header>
     <main class="register-main">
-     <div class="forms-container">
-        <form action="">
-            <div class ="register-container">
-                <h1>Регистрация</h1>
-                <hr>
-                <label for="email"><b>Електронна поща</b></label>
-                <input type="email" name ="email" placeholder="Въведете Вашата електронна поща" id="pass" required>
+        <div class="forms-container">
+            <form action="">
+                <div class="register-container">
+                    <h1>Регистрация</h1>
+                    <hr>
+                    <label for="email"><b>Електронна поща</b></label>
+                    <input type="email" name="email" placeholder="Въведете Вашата електронна поща" id="pass" required>
 
-                <label for="pass"><b>Парола</b></label>
-                <input type="password" name ="pass" placeholder="Въведете парола" id="pass" required>
+                    <label for="pass"><b>Парола</b></label>
+                    <input type="password" name="pass" placeholder="Въведете парола" id="pass" required>
 
-                <label for="pass-repeat"><b>Потвърждение парола</b></label>
-                <input type="email" name ="pass-repeat" placeholder="Повторете паролата" id="pass-repeat" required>
-                <hr>
-                <button type="submit" class="registration">Регистрация</button>
+                    <label for="pass-repeat"><b>Потвърждение парола</b></label>
+                    <input type="email" name="pass-repeat" placeholder="Повторете паролата" id="pass-repeat" required>
+                    <hr>
+                    <button type="submit" class="registration">Регистрация</button>
 
-            </div>
-        </form>
-        
-        <form action="">
-            <div class ="login-container">
-                <h1>Вход</h1>
-                <hr>
-                <label for="email"><b>Електронна поща</b></label>
-                <input type="email" name ="email" placeholder="Въведете Вашата електронна поща" id="pass" required>
+                </div>
+            </form>
 
-                <label for="pass"><b>Парола</b></label>
-                <input type="password" name ="pass" placeholder="Въведете парола" id="pass" required>
+            <form action="">
+                <div class="login-container">
+                    <h1>Вход</h1>
+                    <hr>
+                    <label for="email"><b>Електронна поща</b></label>
+                    <input type="email" name="email" placeholder="Въведете Вашата електронна поща" id="pass" required>
 
-                <hr>
-                <button type="submit" class="loginbtn">Вход</button>
-            </div>
-        </form>
-        
-     </div> 
-       
+                    <label for="pass"><b>Парола</b></label>
+                    <input type="password" name="pass" placeholder="Въведете парола" id="pass" required>
+
+                    <hr>
+                    <button type="submit" class="loginbtn">Вход</button>
+                </div>
+            </form>
+
+        </div>
+
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
